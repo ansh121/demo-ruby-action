@@ -7,4 +7,4 @@ payload = JSON.parse(File.read(ENV['GITHUB_EVENT_PATH']))
 octokit.auto_paginate = true
 issues_and_prs = octokit.list_issues(repository: payload['repository']['full_name'], state: 'all')
 
-print(issues_and_prs)
+puts issues_and_prs
