@@ -8,4 +8,4 @@ require 'json'
 # issues_and_prs = octokit.list_issues(repository: payload['repository']['full_name'], state: 'all')
 
 # puts issues_and_prs
-# puts "Hello"
+puts "Hello"
