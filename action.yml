@@ -1,0 +1,11 @@
+name: 'get-repo-stats'
+description: 'Get number of open & closed issues and pull requests'
+inputs:
+  token:
+    description: 'GITHUB_TOKEN'
+outputs:
+  stats:
+    description: 'Number of open and closed issues & PRs'
+runs:
+  using: 'docker'
+  main: 'Dockerfile'
