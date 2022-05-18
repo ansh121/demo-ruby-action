@@ -8,4 +8,4 @@ outputs:
     description: 'Number of open and closed issues & PRs'
 runs:
   using: 'docker'
-  main: 'Dockerfile'
+  image: 'Dockerfile'
